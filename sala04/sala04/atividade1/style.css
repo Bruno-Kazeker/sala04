@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+gap: 10px;
+
+}
+button{
+    background-color: blue;
+    color: aqua;
+    border: none;
+    border-radius: 99px;
+}
+button:haver{
+    cursor: pointer;
+    background-color: brown;
+}
