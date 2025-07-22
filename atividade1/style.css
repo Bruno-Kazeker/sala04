@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 21, 150);
+    border: 3px solid #ff0000;
+    border-radius: 99px;
+    padding: 10px 10px;
+    transition: 200ms all linear;
+    font-size: 20;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid #ff0000;
+    background-color: rgb(163, 56, 56);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
