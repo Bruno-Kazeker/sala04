@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ddd;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+#s1{
+   min-height: 100vh;
+   background-color: aqua;
+   padding: 80px;
+}
+
+#s2{
+    min-height: 100vh;
+   background-color: rgb(255, 0, 0);
+   padding: 80px;
+}
+
+#s3{
+    min-height: 100vh;
+   background-color: rgb(0, 255, 30);
+   padding: 80px;
+}
+
+#s4{
+    min-height: 100vh;
+   background-color: rgb(38, 0, 255);
+   padding: 80px;
+}
